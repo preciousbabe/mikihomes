@@ -492,7 +492,7 @@ nav {
 
 .about__content p {
   margin-bottom: 1rem;
-  color: var(--text-light);
+  color: var(--text-dark);
   line-height: 1.75rem;
 }
 
