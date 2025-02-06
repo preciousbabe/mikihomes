@@ -570,7 +570,7 @@ background: linear-gradient(to bottom, #DCEEFF, #FFFFFF);
 }
 
 .service__card p {
-  color: var(--text-light);
+  color: var(--text-dark);
   line-height: 1.75rem;
   transition: 0.3s;
 }
@@ -800,7 +800,7 @@ background: linear-gradient(to bottom, #DCEEFF, #FFFFFF);
   }
 }
 
-/* foter */
+
 /* Footer Styling */
 .footer {
   background: #003366;
