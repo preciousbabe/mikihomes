@@ -178,7 +178,7 @@ document.getElementById("contactForm").addEventListener("submit", function (even
   }
 
   // WhatsApp Number (replace with actual number)
-  let phoneNumber = "+2348033077376"; // Example: replace with your WhatsApp number
+  let phoneNumber = "+2347071455454"; // Example: replace with your WhatsApp number
 
   // Format message for WhatsApp
   let whatsappMessage = `Hello, my name is ${name}. %0AEmail: ${email} %0A%0A${message}`;

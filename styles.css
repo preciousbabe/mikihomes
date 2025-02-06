@@ -3,6 +3,7 @@
 :root {
   --primary-color: #EA213E;
   --text-dark: #0a0a0a;
+  --text-light: #fff;
   --white: #ffffff;
   --max-width: 1200px;
 }
@@ -190,6 +191,7 @@ nav {
 .banner {
   margin-top: 5rem;
   display: grid;
+  
 }
 
 .banner__card {
@@ -200,37 +202,37 @@ nav {
   position: relative;
   isolation: isolate;
   padding-block: 5rem;
-  background-color: #b80e0e;
+  background-color: #0e28b8;
 }
 
 .banner__card:nth-child(2) {
-  background-color: #ee2a10;
+  background-color: #0b41b6;
 }
 
 .banner__card:nth-child(3) {
-  background-color: #eb1111;
+  background-color: #2711eb;
 }
 
 .banner__card:nth-child(4) {
-  background-color: #f54444;
+  background-color: #0609a8;
 }
 
 .banner__card h4 {
   font-size: 1.2rem;
   font-weight: 500;
-  color: var(--text-dark);
+  color: var(--text-light);
 }
 
 .banner__card p {
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
-  color: var(--text-dark);
+  color: var(--text-light);
 }
 
 .banner__card a {
   font-size: 1rem;
   font-weight: 600;
-  color: var(--text-dark);
+  color: var(--text-light);
 }
 
 .banner__content {
@@ -246,7 +248,7 @@ nav {
   justify-content: center;
   flex-direction: column;
   z-index: 1;
-  background-color: var(--primary-color);
+  background-color: #190eb8;
   border-top-right-radius: 100%;
 }
 
@@ -254,18 +256,18 @@ nav {
   font-size: 4rem;
   font-weight: 600;
   line-height: 5rem;
-  color: var(--text-dark);
+  color: var(--text-light);
 }
 
 .banner__content p {
   font-weight: 500;
-  color: var(--text-dark);
+  color: var(--text-light);
 }
 
 .banner__content h3 {
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--text-dark);
+  color: var(--text-light);
 }
 
 @media (width > 540px) {
@@ -348,7 +350,7 @@ nav {
       minmax(0, calc(var(--max-width) / 4))
       minmax(0, calc(var(--max-width) / 4))
       minmax(1rem, 1fr);
-      background-color: var(--primary-color);
+      background-color: #190eb8;
   }
 
   .banner__card:nth-child(1) {
